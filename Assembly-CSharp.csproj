@@ -1,0 +1,1430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{BA5D9A54-7AAA-FEEF-EA29-77A81A93B00F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2021.3.3f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Utils\Validator\CIImagePicker1.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\SimpleSpriteAnimation\SpriteFrameAnimation.cs" />
+    <Compile Include="Assets\Scripts\Audio\BackgroundMusic.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\AuthenView.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\JsonHelper.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupCommingSoon.cs" />
+    <Compile Include="Assets\Script\CST_App.cs" />
+    <Compile Include="Assets\Resources\AnimationClip\Animbutton\VpbScaleButtons.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupTOPlayAlert.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\WebSocketFrame.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_chon_dap_an_hcn_nobaidoc.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupTOEnterRoomPassword.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\AuthenticationResponse.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TORankingView.cs" />
+    <Compile Include="Assets\Unimgpicker\Samples\Rotator.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Extensions\RectTransformExtensions.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIGlowBlink.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\HomeView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpRequestHeader.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\ResponseHelper.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\StandardPaths\StandardPaths.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIButtonEmoji.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\MaterialModel.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\SpriteSwapTransitions.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOTestView.cs" />
+    <Compile Include="Assets\Scripts\Audio\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\Utility.cs" />
+    <Compile Include="Assets\Resources\Noti\NotificationPush.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\VpbScene.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\LogData.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Assets\Book-Page Curl\scripts\BookFlip.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\DrawTitleSafeArea\DrawTitleSafeArea.cs" />
+    <Compile Include="Assets\Resources\Prefabs\KQHT\item_result_detail.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Assets\Screenshot\Scripts\Screenshot.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\IWebSocketSession.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpUtility.cs" />
+    <Compile Include="Assets\Scripts\View\ItemBook.cs" />
+    <Compile Include="Assets\Libraries\NewEnsign\GUI\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupTOQuit.cs" />
+    <Compile Include="Assets\Scripts\Scene\CIBaseView.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\Scripts\Utils\FileHelper\CIValidator.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\Scripts\Blending.cs" />
+    <Compile Include="Assets\Scripts\View\ItemFriendClass.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\TPL22.cs" />
+    <Compile Include="Assets\Resources\Prefabs\Week\PopupTuan99.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterGridLayoutGroup.cs" />
+    <Compile Include="Assets\Scripts\View\ItemNoti.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\HttpRequest.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\dien_viet_img\W_choose_a_word_viet_img2.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\ThiTaiBaiToan9x9.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\TestBackFlipView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\CookieCollection.cs" />
+    <Compile Include="Assets\Scripts\Audio\SoundButton.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\MovinLayer.cs" />
+    <Compile Include="Assets\Scripts\Utils\Helper\TemplateController.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\InputState.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ResolutionMonitor.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\bang_ket_qua.cs" />
+    <Compile Include="Assets\Scripts\Scene\Base\CITestBaseView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\Transitions.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\GetImage.cs" />
+    <Compile Include="Assets\Scripts\View\ItemTOChild.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Data\SocketOpenData.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupContact.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIPlayIntroAnim.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\BookTest1View.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketBehavior.cs" />
+    <Compile Include="Assets\Scenes\Parent\Scripts\ScrollRectPos.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterImage.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\EndPointListener.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\MaterialPropertyTransition.cs" />
+    <Compile Include="Assets\Scripts\View\ItemTOChat.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\WebSockets\WebSocketContext.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\Exceptions\PromiseException.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\SizeConfigCollection.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\SocketIO\SocketIOSettings.cs" />
+    <Compile Include="Assets\Scripts\View\PanelTOPeopleView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\SocketIO\BaseSocketIO.cs" />
+    <Compile Include="Assets\Scenes\Parent\Scripts\HomeController.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketSessionManager.cs" />
+    <Compile Include="Assets\Scripts\View\PasswordField.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\VertexMaterialData.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerException.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Bodybuilder\SimpleJSON\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\HttpServer.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\CloseStatusCode.cs" />
+    <Compile Include="Assets\log.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Rsv.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\AuthenModel.cs" />
+    <Compile Include="Assets\Scenes\Parent\Scripts\Parent_Controller.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIGetMatchInfoCons.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\Answer9x9.cs" />
+    <Compile Include="Assets\Libraries\NewEnsign\GUI\GUIButton.cs" />
+    <Compile Include="Assets\Scripts\Utils\FileHelper\swipe.cs" />
+    <Compile Include="Assets\Resources\RestClient\DemoScene\Scripts\Model\Post.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterRawImage.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterAxisAlignedLayoutGroup.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\ForgotPasswordView.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\PrepareYoutubeVideo.cs" />
+    <Compile Include="Assets\Scripts\View\PanelTOChatView.cs" />
+    <Compile Include="Assets\VideoYoutube\SettingvideoYoutube.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />
+    <Compile Include="Assets\Scripts\View\ItemWeek.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterContentSizeFitter.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterLocator.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOPlayView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\Color32Transitions.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\Picker_editor.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterScrollbar.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
+    <Compile Include="Assets\Book-Page Curl\scripts\AutoFlip.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ResponseStream.cs" />
+    <Compile Include="Assets\Resources\Prefabs\DauTruong\select_bai_tuan.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\PayloadData.cs" />
+    <Compile Include="Assets\Scripts\View\ItemClass.cs" />
+    <Compile Include="Assets\Scripts\Audio\GameControllerScene.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\PickerUnsupported.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\Exceptions\PromiseStateException.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\Promise.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\ObjectActivenessTransitions.cs" />
+    <Compile Include="Assets\Davinci\Examples\3- Fading\FadingExample.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\ServerState.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\ScreenInfo.cs" />
+    <Compile Include="Assets\Sprites\Draww\Draw.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIDatePicker.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\SocketIOController.cs" />
+    <Compile Include="Assets\Libraries\NewEnsign\Singleton.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\MovinShape.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\ConditionallyVisiblePropertyDrawer\Runtime\ConditionallyVisibleAttribute.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\Materials.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\QueryStringCollection.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerAsyncResult.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIAutoMove.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_sap_xep_khong_anh.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\Vector3SizeModifier.cs" />
+    <Compile Include="Assets\Scripts\Manager\SceneHandler.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\BaseModel.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Fin.cs" />
+    <Compile Include="Assets\Script\sound\VpbOptions.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\RequestStream.cs" />
+    <Compile Include="Assets\Resources\Prefabs\KQHT\PopupKq_chi_tiet_NDGD.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterDropdown.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\AspectRatio.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\EditParentView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\ResolutionSizer.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\IPicker.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TORoomsView.cs" />
+    <Compile Include="Assets\Davinci\Examples\1- Simple\SimpleExample.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\MovinShapeSlave.cs" />
+    <Compile Include="Assets\Scripts\View\ItemTORank.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelper.cs" />
+    <Compile Include="Assets\Davinci\Examples\4- Callbacks\CallbacksExample.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\DpiManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\PopupManager.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IIsActive.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\QA9x9.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\Tuple.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\TournamentModel.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\CloseEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Utils\ZipHelper\ZipFile.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\Future\Future.cs" />
+    <Compile Include="Assets\Resources\Prefabs\Week\item_tuan.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\Margin.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Packet\EnginePacketType.cs" />
+    <Compile Include="Assets\Scripts\Utils\Helper\DropOne.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IsCertainScreenOrientation.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CITopThreeButtons.cs" />
+    <Compile Include="Assets\Scripts\View\ItemCount.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\AuthenticationBase.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\PlayVideo.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_choi_chon_dap_an_NEW_TV.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\VideoPlayerProgress.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterAspectRatioFitter.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Mask.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterSlider.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\TournamentAPI.cs" />
+    <Compile Include="Assets\Script\UriHelper.cs" />
+    <Compile Include="Assets\Scripts\View\ItemLession.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Test\TestObject.cs" />
+    <Compile Include="Assets\Resources\RestClient\DemoScene\Scripts\Model\User.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\IO\Decoder.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterText.cs" />
+    <Compile Include="Assets\Resources\RestClient\DemoScene\Scripts\Model\Todo.cs" />
+    <Compile Include="Assets\Scripts\Audio\Singleton_Audio.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\RestClient.cs" />
+    <Compile Include="Assets\Scripts\Utils\LocalDataProvider.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\LocationAnimations.cs" />
+    <Compile Include="Assets\Scripts\Title\TitleAnim.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpStatusCode.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\IO\Encoder.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\CarouselView.cs" />
+    <Compile Include="Assets\Scripts\Utils\CSVReader.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\CarouselViewTraining.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Events\Ack.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\ImpactMode.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Scripts\View\ItemRoom.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOWaitRoomView.cs" />
+    <Compile Include="Assets\Scripts\View\ItemTestFlying.cs" />
+    <Compile Include="Assets\Resources\Prefabs\Week\PopupTuan.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\HttpRequestEventArgs.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\TransitionStateCollection.cs" />
+    <Compile Include="Assets\Script\sound\VpbSound2.cs" />
+    <Compile Include="Assets\Scripts\View\ChildItemResult.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\ListWeek.cs" />
+    <Compile Include="Assets\Scenes\Parent\Scripts\ScrollRectEx.cs" />
+    <Compile Include="Assets\Resources\AnimationClip\Animbutton\Vpbanimbutton.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Utils\Updater.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOHomeView.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\SetupNewPassSuccessView.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_sap_xep_co_anh.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\SslConfiguration.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_noi_1_1.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\FloatSizeModifier.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\AnimationTransitions.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\CustomTransition.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\Scripts\Samurai.cs" />
+    <Compile Include="Assets\Spin.cs" />
+    <Compile Include="Assets\Scripts\View\ItemLecture.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\MarginSizeModifier.cs" />
+    <Compile Include="Assets\Scripts\View\ItemChild.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\DownloadYoutubeVideo.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\TestResultView.cs" />
+    <Compile Include="Assets\Scripts\View\ItemPlayHistory.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\IO\Parser.cs" />
+    <Compile Include="Assets\Script\SimpleZipDownloader.cs" />
+    <Compile Include="Assets\Resources\Prefabs\Week\bai_tuan.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpResponseHeader.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_noi_1_n.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupTOFindRoom.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\Draggable.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\SimpleYoutubeVideo.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketServer.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Interfaces\IBetterHorizontalOrVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\PickerAndroid.cs" />
+    <Compile Include="Assets\Scripts\Utils\ZipHelper\Image.cs" />
+    <Compile Include="Assets\Scripts\CheckScreen\CanvasResolution.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOPlayTypeView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\RectTransformData.cs" />
+    <Compile Include="Assets\Screenshot\Scripts\Check.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\Cookie.cs" />
+    <Compile Include="Assets\Davinci\Scripts\Davinci.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\passwordInput.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\VideoMetadata.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IsScreenOfCertainSize.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterHorizontalLayoutGroup.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\NewAuthenAPI.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\ItemChildResult.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\HttpResponse.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\HttpBase.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\SingletonScriptableObject.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\SelectAuth.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\ClassNoView.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\W_choose_a_word_and_write_in_the_gaps_5x5_v1_WordLong.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\ColorTransitions.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\ScreenTypeConditions.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Utils\Ease.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CITextSizeButton.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Assets\Scripts\View\CIAlert.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Opcode.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\Friends.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\AnchorOverride.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\MaterialLocal.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\GameObjectActivator.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\GuideWrongPlay.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\Unimgpicker.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\Dispatcher\Dispatcher.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerPrefix.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\BaseAPI.cs" />
+    <Compile Include="Assets\Scripts\Entities\Model\ProfileModel.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupGeneralSetting.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\SelectPackage.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\ResultView.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\ProfileView.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\Scripts\Bust.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\Question9x9.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIAutoDestroy.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\SeePicAndDrag.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\BetterLayoutElement.cs" />
+    <Compile Include="Assets\Animation\Anim_Dang_chon\Notification.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Logger.cs" />
+    <Compile Include="Assets\Scripts\View\ItemActivity.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\SettingView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\OverrideScreenProperties.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\InteractionArea.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\DropZone.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerRequest.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IsScreenTagPresent.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
+    <Compile Include="Assets\Davinci\Examples\2- Placeholders\PlaceholdersExample.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\GuideRightPlay.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\StaticSizerMethod.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\InputChunkState.cs" />
+    <Compile Include="Assets\Resources\Prefabs\DauTruong\select_item_tuan.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupPlayIntro.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\SortingLayer\SortingLayerExposed.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\SizeModifierCollection.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketServiceManager.cs" />
+    <Compile Include="Assets\Scripts\View\ItemLectureResult.cs" />
+    <Compile Include="Assets\Spine_Asset\loading\Remove_Loading.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\CookieException.cs" />
+    <Compile Include="Assets\Unimgpicker\Samples\PickerController.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIStateButton.cs" />
+    <Compile Include="Assets\Script\ZipFile.cs" />
+    <Compile Include="Assets\Scripts\View\PopListQ.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ServerSslConfiguration.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\CountDownTimer.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketServiceHost`1.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\ILayoutChildDependency.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\ByteOrder.cs" />
+    <Compile Include="Assets\Scripts\View\ItemFriend.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\RegisterView.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\Resources\Prefabs\KQHT\item_result_all.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\WebSocketState.cs" />
+    <Compile Include="Assets\Scripts\View\CountdownTimer.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IsCertainAspectRatio.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\MaterialAPI.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\SimpleSpriteAnimation\SpriteFrameAnimator.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\VpbRenderCam.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\SelectBookType.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\PanoramicSkyboxVideo.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterInputField.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\updatePhone.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListener.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\All_noi\Line.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\Chunk.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\Common.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\WeekDetailView.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupBookTextVideo.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\SocketIO\NativeSocketIO.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\LineState.cs" />
+    <Compile Include="Assets\Scenes\Parent\Scripts\ChallengeManager.cs" />
+    <Compile Include="Assets\Libraries\NewEnsign\GUI\ObjectPoolExtensions.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\AccountSettingView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ClientSslConfiguration.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\SetupNewPassView.cs" />
+    <Compile Include="Assets\Unimgpicker\Scripts\PickeriOS.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Test\SocketTest.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\WebGL\AckJson.cs" />
+    <Compile Include="Assets\Davinci\Examples\5- Load as Texture\TextureExamlpe.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\BaiToan9x9.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\WebHeaderCollection.cs" />
+    <Compile Include="Assets\Resources\Prefabs\KQHT\PopupKO_chitiet.cs" />
+    <Compile Include="Assets\Scripts\Scene\Tournament\TOTongSoat.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\LoadingView.cs" />
+    <Compile Include="Assets\Scripts\Utils\OffScreenUICull.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\VpbDragObject.cs" />
+    <Compile Include="Assets\Scripts\View\ChildBar.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Interfaces\IBetterTransitionUiElement.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\W_choose_a_word_and_write_in_the_gaps_5x5_v1_dien_viet.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Packet\SocketPacket.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ImageAppearanceProviderHelper.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\PlayHistoryView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IsScreenOfCertainDeviceInfo.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\dien_viet_img\W_choose_a_word_viet_img.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\MovinRenderer.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\ConfirmPhoneView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Packet\SocketPacketType.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeDeltaSizer.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\AddKidView.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\Game_controller.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\RSG.Promise\PromiseTimer.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\PopupTOCreateRoom.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Libraries\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CINormalDatePicker.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\CompressionMethod.cs" />
+    <Compile Include="Assets\Scripts\Scene\BasePlayView.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\WeekView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\WebGL\EventJson.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerResponse.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\LogLevel.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpConnection.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\WebSocketException.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\IScreenTypeCheck.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIPanelLoadMore.cs" />
+    <Compile Include="Assets\Scripts\View\ItemPackage.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\ErrorEventArgs.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\Vector2SizeModifier.cs" />
+    <Compile Include="Assets\Scripts\Manager\CIEnvironment.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterToggle.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Ext.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\PlayView.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\IScreenConfigConnection.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterSelectable.cs" />
+    <Compile Include="Assets\Scripts\View\ItemBookPre.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\All_noi\VpbObjectButton.cs" />
+    <Compile Include="Assets\Scripts\Scene\Books\PlayerController.cs" />
+    <Compile Include="Assets\Animation\Anim_Dang_chon\Anim_Start.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\who_are_you.cs" />
+    <Compile Include="Assets\ClickAndGetImage.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIBookZoom.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicButton.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\SocketIO\WebGLSocketIO.cs" />
+    <Compile Include="Assets\Scripts\View\TestBackFlipItem.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_choi_chon_dap_an_vuong.cs" />
+    <Compile Include="Assets\Resources\keotha\Prefabs\VpbField.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeChangeTracker.cs" />
+    <Compile Include="Assets\Resources\RestClient\DemoScene\Scripts\MainScript.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Bodybuilder\SimpleJSON\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterButton.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpDigestIdentity.cs" />
+    <Compile Include="Assets\VideoYoutube\SliderDrag.cs" />
+    <Compile Include="Assets\Scripts\View\ItemMon.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterScrollRect.cs" />
+    <Compile Include="Assets\Scripts\Utils\Helper\DrawLineAgain.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpListenerContext.cs" />
+    <Compile Include="Assets\Resources\Prefabs\DauTruong\selected_bai_tuan.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Interfaces\IResolutionDependency.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\SelectBook.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\TransformScaler.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\IngameResolutionMonitor.cs" />
+    <Compile Include="Assets\Resources\Prefabs\Week\PopupBaihoc.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\EndPointManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\Helper\PlayableController.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIMessageButton.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\AlphaTransitions.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Movin.cs" />
+    <Compile Include="Assets\Scripts\Scene\Popups\VerifyPopup.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ChunkStream.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\LocationAnimationTransitions.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\ResolutionDependentSize.cs" />
+    <Compile Include="Assets\Scripts\View\TestBFPreviewQ.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\ProfileAPI.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIPanelEmoji.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\WebSocket.cs" />
+    <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Interfaces\IImageAppearanceProvider.cs" />
+    <Compile Include="Assets\Scripts\BaiToan9x9\LuyenTapBaiToan9x9.cs" />
+    <Compile Include="Assets\Scripts\View\ItemLecturePlay.cs" />
+    <Compile Include="Assets\Libraries\YoutubePlayer\Scripts\YoutubePlaylist.cs" />
+    <Compile Include="Assets\Resources\TemplateGames\Scripts\dang_chon_dap_an_hcn_bai_doc.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Bodybuilder\BodymovinContent.cs" />
+    <Compile Include="Assets\Scripts\Entities\Worker\AuthenAPI.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Assets\SpinningLoadingBars\Other\SpinningLoadingBar_2.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\CacheBehaviour\CacheBehaviour.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\NetworkCredential.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\BooksView.cs" />
+    <Compile Include="Assets\Scripts\Scene\Home_Profile\ProfileChangePassView.cs" />
+    <Compile Include="Assets\Scripts\Scene\0Authen\OTPView.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpVersion.cs" />
+    <Compile Include="Assets\Resources\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
+    <Compile Include="Assets\Libraries\u.movin-master\Assets\U.movin\Bodybuilder\SimpleJSON\SimpleJSON.cs" />
+    <Compile Include="Assets\Resources\RestClient\DemoScene\Scripts\Model\Photo.cs" />
+    <Compile Include="Assets\Scripts\View\CustomView\CIPanelEmojiBig.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\Scripts\Events\SocketIOEvent.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\HttpHeaderType.cs" />
+    <Compile Include="Assets\Libraries\UnityToolbag-main\SortingLayer\SortingLayerAttribute.cs" />
+    <Compile Include="Assets\Scripts\Manager\CIConstant.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\Net\ReadBufferState.cs" />
+    <Compile Include="Assets\Libraries\UnitySocketIO\WebSocketSharp\MessageEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\HueSaturationBrightness.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat the thao\linh vat bong banh.atlas.txt" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-1\content.txt" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-3\final.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\Hoc Tap\Hoc Tap.atlas.txt" />
+    <None Include="Assets\Spine_Asset\loading\loading bai hoc.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat Tieng Viet\linh vat tieng Viet.atlas.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\Thi Tai\Thi Tai.atlas.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\Sang Tao\Sang Tao.atlas.txt" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-2\title.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Libraries\u.movin-master\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-2\content.txt" />
+    <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\Standard.shader" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-3\content.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat dao duc\linh vat dao duc.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-1\title.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\Linh Vat Danh Dan\linh vat danh dan.atlas.txt" />
+    <None Include="Assets\TheraBytes\BetterUI\README.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Spine_Asset\IconTitle\ling vat kinh vien vong.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat hoat dong trai nghiem\kinh lup.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat hoa si\linh vat hoa si.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat ngoai ngu\linh vat ngoai ngu.atlas.txt" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat kinh vien vong\ling vat kinh vien vong.atlas.txt" />
+    <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\Grayscale.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-1\final.txt" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-2\final.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Spine_Asset\IocnHome\linh vat toan hoc\linh vat Toan hoc.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\ColorOverlay.shader" />
+    <None Include="Assets\Downloads\class-2-thu-nghiem\tieng-viet-2-thu-nghiem-1\tieng-viet-2-thu-nghiem-1-page-3\title.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\SharpZipLib\net-20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\Mẫu\2021.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.003">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VectorGraphics">
+      <HintPath>Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.003">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="YoutubePlayer">
+      <HintPath>Library\ScriptAssemblies\YoutubePlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VectorGraphics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2A3D2100-372F-10F8-E967-2AA36351360E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-csharp.csproj">
+      <Project>{3937E4A0-F0A4-D485-538C-5DBA83E2AF9B}</Project>
+      <Name>spine-csharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{DBCC3DBA-38DA-1FDB-F602-5065D0C05E39}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleFileBrowser.Runtime.csproj">
+      <Project>{08A8CE98-5627-916C-1C3C-DC2F9FB3C406}</Project>
+      <Name>SimpleFileBrowser.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{F6B484F6-E567-1B69-4146-202E81E0FE25}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nobi.UiRoundedCorners.csproj">
+      <Project>{437B60D9-F037-D496-B539-852240E198DB}</Project>
+      <Name>Nobi.UiRoundedCorners</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - number
+  - PanelPlay
+  - canvasUI
+  - animTitle
+  - canvasController
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - anim
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 143820971
+    locked: 0
+  - name: Main UI
+    uniqueID: 1559001949
+    locked: 0
+  - name: Popup
+    uniqueID: 1631552967
+    locked: 0
+  - name: top
+    uniqueID: 3362551931
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1705255143
+    locked: 0

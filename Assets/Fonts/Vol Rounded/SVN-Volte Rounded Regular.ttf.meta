@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 785c6e330c1f1704a9b6659800b54fa8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SVN-Volte Rounded
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 205c01598b9c981488154bbbdaf0740f, type: 3}
+  - {fileID: 12800000, guid: 55e2014e3c8fd69428a7333463e93d85, type: 3}
+  - {fileID: 12800000, guid: e61c6e8b058864046a158fb112add4a3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

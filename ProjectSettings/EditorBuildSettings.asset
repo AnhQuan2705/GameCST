@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0Authen/Loading.unity
+    guid: 41eaa16ac4bee8d4b8c51204512d2599
+  - enabled: 1
+    path: Assets/Scenes/0Authen/Authen.unity
+    guid: 47ab26747cb080d4bac51ba7d6599f1e
+  - enabled: 1
+    path: Assets/Scenes/0Authen/Register.unity
+    guid: 4f20acc053ada4a44b2b4f04e36490e3
+  - enabled: 1
+    path: Assets/Scenes/0Authen/ConfirmPhonenumber.unity
+    guid: fd37affb8d453ff48a3d44740a488d2e
+  - enabled: 1
+    path: Assets/Scenes/0Authen/WhoAreYou.unity
+    guid: 34d31056b54b3ce428af76fd51cdd5d0
+  - enabled: 1
+    path: Assets/Scenes/0Authen/OTP.unity
+    guid: 3610eadfba55f4146b7778182e4b80de
+  - enabled: 1
+    path: Assets/Scenes/0Authen/SelectAuth.unity
+    guid: 58a10507d8b040f42845e9e9a8eec491
+  - enabled: 1
+    path: Assets/Scenes/Books/ListWeek.unity
+    guid: 6f715e409808340448944ec2592e0b08
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/SelectBook.unity
+    guid: 3ab9328078c7a6f4f9aa13e84784b12e
+  - enabled: 1
+    path: Assets/Scenes/0Authen/SetupNewPass.unity
+    guid: 18dd4df5c301cb04b9aca330dc7423c8
+  - enabled: 1
+    path: Assets/Scenes/0Authen/SetupNewPassSuccess.unity
+    guid: 329410bd8c0124a4a9091b6d7130c2ba
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/Home.unity
+    guid: 921e7cb2f5d985341a36ae3b434a5a60
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/AddKid.unity
+    guid: e0daf3b1dd4928048a18d44c2590139f
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/Setting.unity
+    guid: 90f2ecee2fc916441bf681fbdb5a476a
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/AccountSetting.unity
+    guid: 950defca741213a4f9793f51b33b1832
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/EditParent.unity
+    guid: d5440a179ba92f84f920e62372580aca
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/ProfileChangePass.unity
+    guid: 465729ec8a1a22042b7a9d1e57e1169f
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/ClassNo.unity
+    guid: f03f6d44ca3c6d443a7e2ea516865466
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/Book.unity
+    guid: 3baa380fa3c0b9d4c8400d01d5e31a29
+  - enabled: 1
+    path: Assets/Scenes/Books/PlayView.unity
+    guid: 7abce7afec50cb046aee74e3d40b8a72
+  - enabled: 1
+    path: Assets/Scenes/Books/BookQuiz1.unity
+    guid: 763f049aa3425b84f80dc6b873e5221a
+  - enabled: 1
+    path: Assets/Scenes/Books/BookQuiz2.unity
+    guid: c7663db396bea064cbf80db5966c87ed
+  - enabled: 1
+    path: Assets/Scenes/Books/GuideRightPlay.unity
+    guid: e8520421504d1fd438d3ec48b874af84
+  - enabled: 1
+    path: Assets/Scenes/Books/GuideWrongPlay.unity
+    guid: 2ff457714412d4f42ba01f417abb327c
+  - enabled: 1
+    path: Assets/Scenes/Books/TestResult.unity
+    guid: f2b29eb98bb756948923196201e3e06e
+  - enabled: 1
+    path: Assets/Scenes/Books/PlayHistoryView.unity
+    guid: 04307d184b16a5a4c88e386c06c05861
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TOHome.unity
+    guid: 18811abdbb55ee44b939fa91228ebfab
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TOPlayType.unity
+    guid: 62ef607f7f9a1494b8bf6dc9a366ebb3
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TORooms.unity
+    guid: 6813c7634b3c2964da414b9de0a9b897
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/Homeworks.unity
+    guid: e643e6b3b64526744beed0f4c7274ed1
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TOWaitRoom.unity
+    guid: 668f6c62db8c6084ba8b3f2a4abd53b0
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TOTest.unity
+    guid: e14ebdcbabe26eb4f8a8c9ba5b87fe4e
+  - enabled: 1
+    path: Assets/Scenes/Home_Profile/Result.unity
+    guid: 222d08a57d82c5e4facfb3afb68573a3
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TOPlay.unity
+    guid: 4b2b8d14acd5d4e45b217b806f2e672b
+  - enabled: 1
+    path: Assets/Scenes/Tournament/TORanking.unity
+    guid: 276a68b4100c8d84c8febe4e02b4d4a6
+  m_configObjects: {}
